@@ -1,9 +1,15 @@
-body{
+#navbar{
+    background-color : #F3EEEA;
+}
+
+#content{
     display : flex;
     align-items : center;
     height : 100vh;
     background-color : #F3EEEA;
 }
+
+
 
 .about-container *{
   color : #776B5D;
@@ -17,6 +23,7 @@ body{
 
 .main{
   background-color : #EBE3D5;
+  margin-top : -250px;
 }
 
 
@@ -60,4 +67,8 @@ img{
 
 footer{
     font-size : 1rem;
+}
+
+.verdy{
+    height : 150px;
 }
