@@ -8,6 +8,7 @@ body{
 .about-container *{
   color : #776B5D;
   font-family: 'Zilla Slab', serif;
+  font-size : 1.25rem;
 }
 
 
@@ -27,37 +28,6 @@ body{
     height: 3px;
     background-color: black; 
 }
-
-
 .main > h1{
     font-size : 1.75rem;
-}
-
-.grid-container{
-    display : grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows : 1fr 1fr;
-}
-
-.grid-item{
-    display : flex;
-    justify-content: center;
-    align-items : center;
-    height : 10vh;
-}
-
-.grid-item{
-    font-size : 1.45em;
-}
-
-.grid-item > a{
-    text-decoration : none;
-}
-
-img{
-    height : 30px;
-}
-
-footer{
-    font-size : 1rem;
 }
