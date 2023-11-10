@@ -1,5 +1,9 @@
 #navbar{
     background-color : #F3EEEA;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
 }
 
 #content{
@@ -23,7 +27,7 @@
 
 .main{
   background-color : #EBE3D5;
-  margin-top : -400px;
+  margin-top : -150px;
 }
 
 
