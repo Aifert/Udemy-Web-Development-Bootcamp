@@ -1,0 +1,53 @@
+#navbar{
+    background-color : #F3EEEA;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+#content{
+    display : flex;
+    align-items : center;
+    height : 100vh;
+    background-color : #F3EEEA;
+}
+
+
+
+.about-container *{
+  color : #776B5D;
+  font-family: 'Zilla Slab', serif;
+}
+
+
+.about-container{
+  max-width : 800px;
+}
+
+.main{
+  background-color : #EBE3D5;
+  margin-top : 120px;
+}
+
+
+.custom-hr{
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+    height: 3px;
+    background-color: black; 
+}
+
+
+.main > h1{
+    font-size : 1.75rem;
+}
+
+footer{
+    font-size : 1rem;
+}
+
+.verdy{
+    height : 150px;
+}

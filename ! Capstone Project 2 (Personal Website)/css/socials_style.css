@@ -1,0 +1,74 @@
+#navbar{
+  background-color : #F3EEEA;
+}
+
+#content{
+  display : flex;
+  align-items : center;
+  height : 100vh;
+  background-color : #F3EEEA;
+}
+
+
+.socials-container *{
+color : #776B5D;
+font-family: 'Zilla Slab', serif;
+}
+
+
+.about-container{
+max-width : 800px;
+}
+
+.main{
+  background-color : #EBE3D5;
+  margin-top : -250px;
+}
+
+
+.custom-hr{
+  width: 100%;
+  margin: 0 auto;
+  border: 0;
+  height: 3px;
+  background-color: black; 
+}
+
+
+.main > h1{
+  font-size : 1.75rem;
+}
+
+.grid-container{
+  display : grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows : 1fr 1fr;
+}
+
+.grid-item{
+  display : flex;
+  justify-content: center;
+  align-items : center;
+  height : 10vh;
+}
+
+.grid-item{
+  font-size : 1.45em;
+}
+
+.grid-item > a{
+  text-decoration : none;
+}
+
+img{
+  height : 30px;
+}
+
+footer{
+  font-size : 1rem;
+}
+
+
+.verdy{
+  height : 150px;
+}
