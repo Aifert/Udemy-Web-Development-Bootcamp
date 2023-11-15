@@ -4,7 +4,7 @@ var userClickedPattern = [];
 var gameStarted = false;
 var level = 0;
 
-$(document).keydown(function(){
+$(document).keydown(() => {
     if(!gameStarted){
         $("#level-title").text("Level "+ level);
         nextSequence();
@@ -57,7 +57,7 @@ function animatePress(currentColour){
 function checkAnswer(currentLevel){
     if(userClickedPattern[currentLevel] === gamePattern[currentLevel]){
         if(userClickedPattern.length === gamePattern.length){
-            setTimeout(function(){
+            setTimeout(() => {
                 nextSequence();
             }, 1000);
         }
@@ -67,7 +67,7 @@ function checkAnswer(currentLevel){
         playSound("wrong");
         $("body").addClass("game-over");
 
-        setTimeout(function(){
+        setTimeout(() => {
             $("body").removeClass("game-over");
         }, 200);
 
