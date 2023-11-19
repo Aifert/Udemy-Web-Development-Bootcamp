@@ -57,6 +57,4 @@ app.listen(port, () => {
 });
 
 
-
-// https://bored-api.appbrewery.com/filter?type=&participants=
-// https://bored-api.appbrewery.com/filter?type=&participants=
+ 
