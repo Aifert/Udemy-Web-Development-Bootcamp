@@ -23,10 +23,10 @@ Explore the various directories to discover the different phases of the bootcamp
 Throughout the bootcamp, I've gained exposure to a variety of technologies, including but not limited to:
 
 Programming Languages: JavaScript
-Web Development: HTML, CSS, React, Node.js, Express.js
-Databases: MongoDB, SQL
-Version Control: Git and GitHub
-Tools: VSCode, Command Line
+- Web Development: HTML, CSS, React, Node.js, Express.js
+- Databases: MongoDB, SQL
+- Version Control: Git and GitHub
+- Tools: VSCode, Command Line
 
 ## Contact
 Feel free to reach out if you have any questions, feedback, or if you're an engineer interested in my work. I'm open to collaboration and eager to connect with fellow developers. You can reach me at yet@yuenstudio.com
