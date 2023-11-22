@@ -5,10 +5,10 @@ Welcome to my Software Development Bootcamp repository! This space holds the val
 This repository serves as a comprehensive record of my progress throughout the software development bootcamp. Here, you'll find a collection of projects, exercises, and code snippets that highlight my learning journey, achievements, and growth.
 
 ## Directory Structure
-Section Content: Contains content covered during that section and exercises done.
-Projects : Houses a variety of coding projects and challenges.
-Assignments: Includes the assignments (Capstone) that I've worked on during the bootcamp.
-Resources: Links to relevant learning materials, documentation, and useful resources.
+- Section Content: Contains content covered during that section and exercises done.
+- Projects : Houses a variety of coding projects and challenges.
+- Assignments: Includes the assignments (Capstone) that I've worked on during the bootcamp.
+- Resources: Links to relevant learning materials, documentation, and useful resources.
 
 ## Getting Started
 Cloning the Repository
