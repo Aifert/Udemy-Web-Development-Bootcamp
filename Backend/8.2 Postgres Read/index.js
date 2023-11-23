@@ -1,17 +1,17 @@
 import express from "express";
 import bodyParser from "body-parser";
-import Client from "pg";
+import pg from "pg";
 
 const app = express();
 const port = 3000;
 
-const db = new Client({
-  user : "postgres",
-  host : "localhost",
-  database : "flags",
-  password : "aifert",
-  port : 5432,
-})
+const db = new pg.Client({
+  user: "postgres",
+  host: "localhost",
+  database: "flags",
+  password: "aifert",
+  port: 5432,
+});
 
 db.connect();
 
@@ -19,7 +19,7 @@ let totalCorrect = 0;
 let quiz = [];
 
 
-db.query("SELECT * FROM users", (err, res) => {
+db.query("SELECT * FROM flags", (err, res) => {
   if(err){
     console.error("error", err.stack);
   }
@@ -45,8 +45,10 @@ app.get("/", (req, res) => {
 // POST a new post
 app.post("/submit", (req, res) => {
   let answer = req.body.answer.trim();
+  console.log(answer.toLowerCase());
+  console.log(currentQuestion);
   let isCorrect = false;
-  if (currentQuestion.capital.toLowerCase() === answer.toLowerCase()) {
+  if (currentQuestion.name.toLowerCase() === answer.toLowerCase()) {
     totalCorrect++;
     console.log(totalCorrect);
     isCorrect = true;
