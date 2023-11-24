@@ -26,7 +26,7 @@ let users = [
 
 async function checkVisisted() {
   const result = await db.query(
-    "SELECT country_code FROM visited_countries JOIN users ON users.id = user_id WHERE user_id = $1; ",
+    "SELECT country_code FROM visited_countries JOIN users ON userid = userid WHERE user_id = $1; ",
     [currentUserId]
   );
   let countries = [];
@@ -39,7 +39,7 @@ async function checkVisisted() {
 async function getCurrentUser() {
   const result = await db.query("SELECT * FROM users");
   users = result.rows;
-  return users.find((user) => user.id == currentUserId);
+  return users.find((user) => userid == currentUserId);
 }
 
 app.get("/", async (req, res) => {
